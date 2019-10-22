@@ -18,6 +18,11 @@ public class NodeCamera : MonoBehaviour
         if(gamemanager.currentNode.CameraFocus.position != transform.position)
         {
             transform.position = Vector3.Slerp(transform.position, gamemanager.currentNode.CameraFocus.position, Time.deltaTime * LerpSpeed);
+            //transform.LookAt(gamemanager.currentNode.transform);
+
+            Vector3 direction = gamemanager.currentNode.transform.position - transform.position;
+            Quaternion toRotation = Quaternion.FromToRotation(transform.forward, direction);
+            transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, LerpSpeed * Time.deltaTime);
         }
     }
 }

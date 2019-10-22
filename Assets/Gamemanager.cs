@@ -8,6 +8,7 @@ public class Gamemanager : MonoBehaviour
     [SerializeField] public StoryNode currentNode;
     [SerializeField] TextMeshProUGUI DisplayText;
     public static TextMeshProUGUI StaticDisplayText;
+    public static bool isPaused;
     void Start()
     {
         if(currentNode != null)
@@ -27,7 +28,7 @@ public class Gamemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentNode == null)
+        if(currentNode == null && !isPaused)
         {
             return;
         }
