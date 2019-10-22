@@ -7,6 +7,7 @@ public class StoryNode : MonoBehaviour
 {
     // Start is called before the first frame update
     public int index;
+    [SerializeField] public Transform CameraFocus;
     [SerializeField] Transform CamOrbitPoint;
     [SerializeField] StoryNode Option1;
     [SerializeField] StoryNode Option2;

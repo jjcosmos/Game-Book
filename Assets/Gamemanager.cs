@@ -5,7 +5,7 @@ using TMPro;
 public class Gamemanager : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] StoryNode currentNode;
+    [SerializeField] public StoryNode currentNode;
     [SerializeField] TextMeshProUGUI DisplayText;
     public static TextMeshProUGUI StaticDisplayText;
     void Start()
