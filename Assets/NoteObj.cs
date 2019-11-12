@@ -8,9 +8,10 @@ public class NoteObj : MonoBehaviour
     public bool canBePressed;
     public KeyCode keyToPress;
     private bool Cleared;
+    private SpriteRenderer rend;
     void Start()
     {
-        
+        rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -20,14 +21,29 @@ public class NoteObj : MonoBehaviour
         {
             if (canBePressed)
             {
-                
 
                 RGameManager.instance.NoteHit();
                 Cleared = true;
-                gameObject.SetActive(false);
+                StartCoroutine(NoteDestroyFX());
+                //gameObject.SetActive(false);
             }
             
         }
+    }
+
+    private IEnumerator NoteDestroyFX()
+    {
+        float i = 0;
+        while(transform.localScale.x < 3)
+        {
+            Debug.Log("Loop");
+            transform.localScale = new Vector3( transform.localScale.x + Time.deltaTime * 3, transform.localScale.y + Time.deltaTime * 3, 1);
+            rend.color = Color.Lerp(Color.white, Color.clear, i);
+            i += Time.deltaTime * 3;
+            yield return null;
+        }
+        rend.enabled = false;
+        transform.localScale = Vector3.one;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
