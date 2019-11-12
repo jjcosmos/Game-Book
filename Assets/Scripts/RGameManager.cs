@@ -9,7 +9,9 @@ public class RGameManager : MonoBehaviour
     public BeatScroller beatScroller;
 
     public static RGameManager instance;
-    public int currentScore;
+
+    public int currentBossHealth;
+    public static int visibleBossHealth;
     public int scorePerNote;
     public int currentMultiplier;
     public int multiplierTracker;
@@ -17,13 +19,22 @@ public class RGameManager : MonoBehaviour
 
     void Start()
     {
-        instance = this;
+        if(instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(this);
+        }
+        
         currentMultiplier = 1;
     }
 
 
     void Update()
     {
+        visibleBossHealth = currentBossHealth;
         if (!startPlaying)
         {
             if (Input.anyKeyDown)
@@ -48,7 +59,7 @@ public class RGameManager : MonoBehaviour
         }
 
         Debug.Log("Hit");
-        currentScore += scorePerNote * currentMultiplier;
+        currentBossHealth += scorePerNote * currentMultiplier;
     }
     public void NoteMissed()
     {
