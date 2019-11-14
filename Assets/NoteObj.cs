@@ -9,6 +9,7 @@ public class NoteObj : MonoBehaviour
     public KeyCode keyToPress;
     private bool Cleared;
     private SpriteRenderer rend;
+    
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();

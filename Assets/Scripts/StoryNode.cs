@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
 
 //[System.Serializable]
 public class StoryNode : MonoBehaviour
@@ -13,6 +15,9 @@ public class StoryNode : MonoBehaviour
     [SerializeField] StoryNode Option2;
     [SerializeField] StoryNode Option3;
     [SerializeField] StoryNode Option4;
+
+    public bool TriggerMinigameScene;
+    public int SceneToLoad;
 
     public StoryNode next;
     [SerializeField] [TextArea] List<string> Dialogue;
@@ -48,7 +53,28 @@ public class StoryNode : MonoBehaviour
 
     public void Activate()
     {
+        if (TriggerMinigameScene)
+        {
+            StartCoroutine(LoadSceneDelay());
+            
+        }
         Gamemanager.StaticDisplayText.text = Dialogue[DialogueIndex];
+    }
+
+    private IEnumerator LoadSceneDelay()
+    {
+        yield return new WaitForSeconds(3);
+        try { SceneManager.LoadScene(SceneToLoad); }
+        catch (Exception e)
+        {
+            Debug.LogError($"Scene load failed. Error code {e}");
+        }
+    }
+
+
+    private void OnDrawGizmos()
+    {   if(TriggerMinigameScene)
+            Gizmos.DrawWireSphere(transform.position, 5f);
     }
 
     public void MoveNext()
