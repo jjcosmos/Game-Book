@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEditor;
 
 //[System.Serializable]
 public class StoryNode : MonoBehaviour
@@ -15,21 +16,40 @@ public class StoryNode : MonoBehaviour
     [SerializeField] StoryNode Option2;
     [SerializeField] StoryNode Option3;
     [SerializeField] StoryNode Option4;
+    [SerializeField] StoryNode Option5;
 
     public bool TriggerMinigameScene;
     public int SceneToLoad;
+    public bool UseSmallFont;
 
     public StoryNode next;
-    [SerializeField] [TextArea] List<string> Dialogue;
+    [SerializeField] [TextArea] public List<string> Dialogue;
     public int DialogueIndex;
+    [SerializeField] GUIStyle style;
+
+    
+
+    
+     
 
     private void Start()
     {
         
     }
 
+
+
     public void SelectOption(int optionIndex)//1 through 4
     {
+        if(!Gamemanager.ReturningFromBattleFlag && TriggerMinigameScene)
+        {
+            return;
+        }
+        else if (Gamemanager.ReturningFromBattleFlag && TriggerMinigameScene)
+        {
+            Gamemanager.ReturningFromBattleFlag = false;
+        }
+        Gamemanager.StaticDisplayText.color = Color.white;
         switch (optionIndex)
         {
             case 1:
@@ -44,6 +64,9 @@ public class StoryNode : MonoBehaviour
             case 4:
                 next = Option4;
                 break;
+            case 5:
+                next = Option4;
+                break;
             default:
                 break;
 
@@ -53,16 +76,32 @@ public class StoryNode : MonoBehaviour
 
     public void Activate()
     {
-        if (TriggerMinigameScene)
+        if (TriggerMinigameScene && !Gamemanager.ReturningFromBattleFlag)
         {
             StartCoroutine(LoadSceneDelay());
             
         }
+        Gamemanager.StaticDisplayText.fontSize = 15;
         Gamemanager.StaticDisplayText.text = Dialogue[DialogueIndex];
+
+        if (Gamemanager.ReturningFromBattleFlag)
+        {
+            
+            if (Gamemanager.WonBattleFlag)
+            {
+                Gamemanager.WonBattleFlag = false;
+                SelectOption(1);
+            }
+            else
+            {
+                SelectOption(2);
+            }
+        }
     }
 
     private IEnumerator LoadSceneDelay()
     {
+        Gamemanager.reEntryNode  = transform.name;
         yield return new WaitForSeconds(3);
         try { SceneManager.LoadScene(SceneToLoad); }
         catch (Exception e)
@@ -73,8 +112,64 @@ public class StoryNode : MonoBehaviour
 
 
     private void OnDrawGizmos()
-    {   if(TriggerMinigameScene)
+    { if (TriggerMinigameScene)
             Gizmos.DrawWireSphere(transform.position, 5f);
+
+        if (Option1)
+        {
+            Debug.DrawLine(transform.position, Option1.transform.position);
+        }
+        if (Option2)
+        {
+            Debug.DrawLine(transform.position, Option2.transform.position, Color.red);
+        }
+        if (Option3)
+        {
+            Debug.DrawLine(transform.position, Option3.transform.position, Color.blue);
+        }
+        if (Option4)
+        {
+            Debug.DrawLine(transform.position, Option4.transform.position, Color.green);
+        }
+        if (Option5)
+        {
+            Debug.DrawLine(transform.position, Option5.transform.position, Color.yellow);
+        }
+        Handles.Label(transform.position, Dialogue[0] + "\n" + Dialogue[Dialogue.Count-1], style);
+        
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        
+
+        if (Option1)
+        {
+            Gizmos.color = Color.white;
+            Gizmos.DrawSphere(Option1.transform.position,2);
+        }
+        if (Option2)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(Option2.transform.position, 2);
+        }
+        if (Option3)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawSphere(Option3.transform.position, 2);
+        }
+        if (Option4)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawSphere(Option4.transform.position, 2);
+        }
+        if (Option5)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawSphere(Option5.transform.position, 2);
+        }
+        
+
     }
 
     public void MoveNext()
@@ -90,6 +185,24 @@ public class StoryNode : MonoBehaviour
             DialogueIndex++;
             //Debug.Log("Index increased my One");
         }
-        Gamemanager.StaticDisplayText.text = Dialogue[DialogueIndex];
+        if(DialogueIndex == Dialogue.Count - 1)
+        {
+            Gamemanager.StaticDisplayText.color = Color.yellow;
+        }
+        else
+        {
+            Gamemanager.StaticDisplayText.color = Color.white;
+        }
+        if(DialogueIndex == Dialogue.Count - 1 && UseSmallFont)
+        {
+            Gamemanager.StaticDisplayText.fontSize = 11;
+            Gamemanager.StaticDisplayText.text = Dialogue[DialogueIndex];
+        }
+        else
+        {
+            Gamemanager.StaticDisplayText.fontSize = 15;
+            Gamemanager.StaticDisplayText.text = Dialogue[DialogueIndex];
+        }
+        
     }
 }

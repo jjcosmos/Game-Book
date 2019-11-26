@@ -6,6 +6,7 @@ public class NoteObj : MonoBehaviour
 {
     // Start is called before the first frame update
     public bool canBePressed;
+    public bool isEndTrigger;
     public KeyCode keyToPress;
     private bool Cleared;
     private SpriteRenderer rend;
@@ -52,6 +53,10 @@ public class NoteObj : MonoBehaviour
         if (collision.CompareTag("Activator"))
         {
             canBePressed = true;
+            if (isEndTrigger) { 
+                RGameManager.instance.EndLevelAndLoadNext();
+                Gamemanager.WonBattleFlag = true;
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

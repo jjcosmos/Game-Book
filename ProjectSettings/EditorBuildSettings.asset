@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ActualRhythmScene.unity
     guid: a7efac3f0da73e7439004acd29203987
+  - enabled: 1
+    path: Assets/Scenes/2ActualRhythmScene 1.unity
+    guid: 3ac6d99a3dc04514e966c43c9b2d814a
   m_configObjects: {}

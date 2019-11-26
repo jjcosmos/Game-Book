@@ -9,7 +9,8 @@ public class NodeCamera : MonoBehaviour
     [SerializeField] float LerpSpeed = 1;
     void Start()
     {
-        
+        gamemanager = Gamemanager._Instance;
+        Gamemanager._Instance.Refresh();
     }
 
     // Update is called once per frame
