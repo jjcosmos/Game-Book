@@ -135,7 +135,7 @@ public class StoryNode : MonoBehaviour
         {
             Debug.DrawLine(transform.position, Option5.transform.position, Color.yellow);
         }
-        Handles.Label(transform.position, Dialogue[0] + "\n" + Dialogue[Dialogue.Count-1], style);
+        //Handles.Label(transform.position, Dialogue[0] + "\n" + Dialogue[Dialogue.Count-1], style);
         
     }
 
