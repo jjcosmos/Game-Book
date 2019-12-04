@@ -33,6 +33,7 @@ public class NoteObj : MonoBehaviour
             }
             
         }
+        
     }
 
     private IEnumerator NoteDestroyFX()
@@ -57,9 +58,11 @@ public class NoteObj : MonoBehaviour
         {
             rend.color = Color.cyan;
             canBePressed = true;
-            if (isEndTrigger) { 
-                RGameManager.instance.EndLevelAndLoadNext();
+            if (isEndTrigger) {
                 Gamemanager.WonBattleFlag = true;
+                RGameManager.instance.EndLevelAndLoadNext();
+                
+                Debug.Log("WINNNNN");
             }
         }
     }

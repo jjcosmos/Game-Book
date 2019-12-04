@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
+using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 [ExecuteInEditMode]
 public class Connector : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Connector : MonoBehaviour
         SelectedObjects = Selection.transforms;
         if (CheckSelection())
         {
+            var SO = new SerializedObject(ParentNode);
             Undo.RecordObject(ParentNode, $"Added {ChildNode} as a branch for {ParentNode}");
             if (ParentNode.Option1 == null)
             {
@@ -38,7 +40,12 @@ public class Connector : MonoBehaviour
             {
                 ParentNode.Option5 = ChildNode;
             }
-            Undo.FlushUndoRecordObjects();
+
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
+            //EditorUtility.SetDirty(ParentNode.gameObject);
+
+            //Undo.FlushUndoRecordObjects();
 
 
             //Debug.Log($"{SelectedObjects[0].name} \n {SelectedObjects[1].name}");
@@ -54,6 +61,8 @@ public class Connector : MonoBehaviour
         {
             Undo.RecordObject(ParentNode, $"Added {ChildNode} as a branch for {ParentNode}");
             ParentNode.Option1 = ChildNode;
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
         }
     }
     [MenuItem("MyTools/ConnectToSlot2 %&#2")]
@@ -64,6 +73,8 @@ public class Connector : MonoBehaviour
         {
             Undo.RecordObject(ParentNode, $"Added {ChildNode} as a branch for {ParentNode}");
             ParentNode.Option2 = ChildNode;
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
         }
     }
 
@@ -75,6 +86,8 @@ public class Connector : MonoBehaviour
         {
             Undo.RecordObject(ParentNode, $"Added {ChildNode} as a branch for {ParentNode}");
             ParentNode.Option3 = ChildNode;
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
         }
     }
 
@@ -86,6 +99,8 @@ public class Connector : MonoBehaviour
         {
             Undo.RecordObject(ParentNode, $"Added {ChildNode} as a branch for {ParentNode}");
             ParentNode.Option4 = ChildNode;
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
         }
     }
 
@@ -97,7 +112,9 @@ public class Connector : MonoBehaviour
         {
             Undo.RecordObject(ParentNode, $"Added {ChildNode} as a branch for {ParentNode}");
             ParentNode.Option5 = ChildNode;
-            
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
+
         }
     }
 
@@ -147,6 +164,9 @@ public class Connector : MonoBehaviour
             {
                 Debug.LogWarning($"Did you mean to clear {active.name}? Multiple objects are selected");
             }
+
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
         }
         
     }
@@ -164,7 +184,7 @@ public class Connector : MonoBehaviour
             ParentNode =  Selection.activeTransform.GetComponent<StoryNode>();
             ChildNode = obj.GetComponent<StoryNode>();
 
-
+            Undo.RecordObject(ParentNode, "Link Node");
             if (ParentNode.Option1 == null)
             {
                 ParentNode.Option1 = ChildNode;
@@ -186,6 +206,9 @@ public class Connector : MonoBehaviour
                 ParentNode.Option5 = ChildNode;
             }
             Undo.RegisterCreatedObjectUndo(obj, "Create Linked Node");
+
+            EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+            PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
         }
         else
         {
@@ -209,7 +232,7 @@ public class Connector : MonoBehaviour
                 ParentNode = Selection.activeTransform.GetComponent<StoryNode>();
                 ChildNode = obj.GetComponent<StoryNode>();
 
-
+                Undo.RecordObject(ParentNode, "Link Node");
                 if (ParentNode.Option1 == null)
                 {
                     ParentNode.Option1 = ChildNode;
@@ -231,6 +254,8 @@ public class Connector : MonoBehaviour
                     ParentNode.Option5 = ChildNode;
                 }
                 Undo.RegisterCreatedObjectUndo(obj, "Create Linked Nodes");
+                EditorSceneManager.MarkSceneDirty(ParentNode.gameObject.scene);
+                PrefabUtility.RecordPrefabInstancePropertyModifications(ParentNode);
             }
             else
             {

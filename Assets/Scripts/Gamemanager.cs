@@ -12,6 +12,7 @@ public class Gamemanager : MonoBehaviour
     public static Gamemanager _Instance;
     public static string reEntryNode;
     public string rNodeVis;
+    public bool visibleWinFlag;
     //use on returning the the main scene
     public static bool ReturningFromBattleFlag;
     public static bool WonBattleFlag;
@@ -73,6 +74,7 @@ public class Gamemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        visibleWinFlag = Gamemanager.WonBattleFlag;
         rNodeVis = reEntryNode;
         if(currentNode == null && !isPaused)
         {

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using System;
 using UnityEditor;
 
-//[System.Serializable]
+[System.Serializable]
 public class StoryNode : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -21,6 +21,7 @@ public class StoryNode : MonoBehaviour
     public bool TriggerMinigameScene;
     public int SceneToLoad;
     public bool UseSmallFont;
+    
 
     public StoryNode next;
     [SerializeField] [TextArea] public List<string> Dialogue;
@@ -37,7 +38,7 @@ public class StoryNode : MonoBehaviour
         
     }
 
-
+   
 
     public void SelectOption(int optionIndex)//1 through 4
     {
@@ -91,10 +92,12 @@ public class StoryNode : MonoBehaviour
             {
                 Gamemanager.WonBattleFlag = false;
                 SelectOption(1);
+                Debug.Log("GOING TO WIN OPTION");
             }
             else
             {
                 SelectOption(2);
+                Debug.Log("GOING TO Lose OPTION");
             }
         }
     }
@@ -141,6 +144,16 @@ public class StoryNode : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if(Dialogue[0] == "DEADEND")
+        {
+            style.fontSize = 30;
+            style.normal.textColor = Color.red;
+        }
+        else
+        {
+            style.normal.textColor = Color.black;
+            style.fontSize = 11;
+        }
         string displayText = "";
         foreach (string line in Dialogue)
         {

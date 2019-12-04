@@ -79,6 +79,14 @@ public class RGameManager : MonoBehaviour
         PlayerHealthUI.text = PlayerHealth.ToString();
         BossHealthUI.text = currentBossHealth.ToString();
 
+
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        {
+            RGameManager.instance.EndLevelAndLoadNext();
+            Gamemanager.WonBattleFlag = true;
+            Debug.Log("WINNNNN");
+        }
+
     }
 
     public void EndLevelAndLoadNext()
@@ -97,6 +105,7 @@ public class RGameManager : MonoBehaviour
             yield return null;
         }
         Gamemanager.ReturningFromBattleFlag = true;
+        Debug.Log("WINNNNN");
         SceneManager.LoadScene(0);
         
         
@@ -115,8 +124,10 @@ public class RGameManager : MonoBehaviour
         PlayerHealth--;
         if(PlayerHealth <= 0)
         {
-            RGameManager.instance.EndLevelAndLoadNext();
             Gamemanager.WonBattleFlag = false;
+            RGameManager.instance.EndLevelAndLoadNext();
+            
+            
         }
     }
 }
