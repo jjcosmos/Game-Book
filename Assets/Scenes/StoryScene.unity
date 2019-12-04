@@ -1026,7 +1026,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -1517,6 +1517,127 @@ Transform:
   m_Father: {fileID: 512304186}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &316432831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You begin your ascent up the base of the mountain.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: You were told the waters of immortality converge here at the mountain,
+        but currently have no idea where to look.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: You will just have to keep a keen eye out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: As you walk through the dead foliage littering the mountain, you come
+        across an opening into what appears to be a cavern.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: You are not sure why but you feel drawn to the cavern as if it is pulling
+        you in.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: '1) Enter the cavern
+
+        2) Continue further up the mountain.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.200287
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 278.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &316432832 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 316432831}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &354372681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2615,7 +2736,7 @@ Transform:
   - {fileID: 1940738519}
   - {fileID: 408753578}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &624626811
 PrefabInstance:
@@ -3271,7 +3392,7 @@ Transform:
   - {fileID: 831448782}
   - {fileID: 1094512937}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &687193745
 PrefabInstance:
@@ -3990,7 +4111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 23.646002, y: -46.251003, z: 0.532}
 --- !u!1001 &707377498
 PrefabInstance:
@@ -6297,7 +6418,7 @@ RectTransform:
   - {fileID: 1075554925}
   - {fileID: 456451929}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7545,7 +7666,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206252900
 GameObject:
@@ -7695,7 +7816,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1262480504
 PrefabInstance:
@@ -8880,6 +9001,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1314359035}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1318396293
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: .
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: .
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: DEADEND
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.779999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 284.75024
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
 --- !u!1 &1319245028
 GameObject:
   m_ObjectHideFlags: 0
@@ -8944,7 +9149,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1328243013 stripped
 MonoBehaviour:
@@ -9605,6 +9810,121 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1488432707}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1490636024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: As you enter the cavern, the air feels moist and cold.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: You cannot see anything except the light from the opening.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: As you rummage through your satchel, you hand comes upon a torch that
+        the abbot had kindly provided you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: You pull it out and light it using a fire-starting mantra you had been
+        taught a couple years back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: The torch blazes into a large flame that illuminates the interior of
+        the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: Stalagmites and stalagtites are visible on both sides of you with only
+        a single path forward deeper into the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: '1) Go deeper into the cave.
+
+        2) Leave and continue on your path up the mountain.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.740509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 284.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
 --- !u!1001 &1499465788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10846,7 +11166,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[5]
-      value: '[End of Demo]'
+      value: 1) [Continue up the mountain]
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -11042,7 +11362,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Option1
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 316432832}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13534,7 +13854,7 @@ Transform:
   m_LocalScale: {x: 14, y: 14, z: 14}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940738516
 GameObject:
@@ -14054,7 +14374,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2077636708
 PrefabInstance:
