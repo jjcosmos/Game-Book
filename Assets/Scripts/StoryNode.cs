@@ -12,11 +12,11 @@ public class StoryNode : MonoBehaviour
     public int index;
     [SerializeField] public Transform CameraFocus;
     [SerializeField] Transform CamOrbitPoint;
-    [SerializeField] StoryNode Option1;
-    [SerializeField] StoryNode Option2;
-    [SerializeField] StoryNode Option3;
-    [SerializeField] StoryNode Option4;
-    [SerializeField] StoryNode Option5;
+    [SerializeField] public StoryNode Option1;
+    [SerializeField] public StoryNode Option2;
+    [SerializeField] public StoryNode Option3;
+    [SerializeField] public StoryNode Option4;
+    [SerializeField] public StoryNode Option5;
 
     public bool TriggerMinigameScene;
     public int SceneToLoad;
@@ -135,38 +135,42 @@ public class StoryNode : MonoBehaviour
         {
             Debug.DrawLine(transform.position, Option5.transform.position, Color.yellow);
         }
-        //Handles.Label(transform.position, Dialogue[0] + "\n" + Dialogue[Dialogue.Count-1], style);
+        
         
     }
 
     private void OnDrawGizmosSelected()
     {
-        
-
+        string displayText = "";
+        foreach (string line in Dialogue)
+        {
+            displayText += line + "\n";
+            Handles.Label(transform.position, displayText, style);
+        }
         if (Option1)
         {
             Gizmos.color = Color.white;
-            Gizmos.DrawSphere(Option1.transform.position,2);
+            Gizmos.DrawWireSphere(Option1.transform.position,2);
         }
         if (Option2)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawSphere(Option2.transform.position, 2);
+            Gizmos.DrawWireSphere(Option2.transform.position, 2);
         }
         if (Option3)
         {
             Gizmos.color = Color.blue;
-            Gizmos.DrawSphere(Option3.transform.position, 2);
+            Gizmos.DrawWireSphere(Option3.transform.position, 2);
         }
         if (Option4)
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawSphere(Option4.transform.position, 2);
+            Gizmos.DrawWireSphere(Option4.transform.position, 2);
         }
         if (Option5)
         {
             Gizmos.color = Color.yellow;
-            Gizmos.DrawSphere(Option5.transform.position, 2);
+            Gizmos.DrawWireSphere(Option5.transform.position, 2);
         }
         
 

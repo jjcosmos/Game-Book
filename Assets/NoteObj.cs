@@ -26,7 +26,9 @@ public class NoteObj : MonoBehaviour
 
                 RGameManager.instance.NoteHit();
                 Cleared = true;
+                rend.color = Color.green;
                 StartCoroutine(NoteDestroyFX());
+                
                 //gameObject.SetActive(false);
             }
             
@@ -35,12 +37,13 @@ public class NoteObj : MonoBehaviour
 
     private IEnumerator NoteDestroyFX()
     {
+        Color StartColor = rend.color;
         float i = 0;
         while(transform.localScale.x < 3)
         {
             Debug.Log("Loop");
             transform.localScale = new Vector3( transform.localScale.x + Time.deltaTime * 3, transform.localScale.y + Time.deltaTime * 3, 1);
-            rend.color = Color.Lerp(Color.white, Color.clear, i);
+            rend.color = Color.Lerp(StartColor, Color.clear, i);
             i += Time.deltaTime * 3;
             yield return null;
         }
@@ -52,6 +55,7 @@ public class NoteObj : MonoBehaviour
     {
         if (collision.CompareTag("Activator"))
         {
+            rend.color = Color.cyan;
             canBePressed = true;
             if (isEndTrigger) { 
                 RGameManager.instance.EndLevelAndLoadNext();
@@ -67,6 +71,7 @@ public class NoteObj : MonoBehaviour
             if (!Cleared)
             {
                 RGameManager.instance.NoteMissed();
+                rend.color = Color.red;
             }
         }
     }
