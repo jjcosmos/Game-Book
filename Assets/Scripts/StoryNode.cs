@@ -158,7 +158,7 @@ public class StoryNode : MonoBehaviour
         foreach (string line in Dialogue)
         {
             displayText += line + "\n";
-            Handles.Label(transform.position, displayText, style);
+            //Handles.Label(transform.position, displayText, style);
         }
         if (Option1)
         {
