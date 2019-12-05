@@ -36,7 +36,13 @@ public class RGameManager : MonoBehaviour
         
 
         
-        if(instance == null)
+        
+
+    }
+
+    private void Awake()
+    {
+        if (instance == null)
         {
             instance = this;
         }
@@ -50,7 +56,6 @@ public class RGameManager : MonoBehaviour
         PlayerHealth = MaxPlayerHealth;
         currentBossHealth = MaxBossHealth;
         currentMultiplier = 1;
-
 
     }
 
@@ -121,7 +126,10 @@ public class RGameManager : MonoBehaviour
     public void NoteMissed()
     {
         Debug.Log("Miss");
-        PlayerHealth--;
+        if (PlayerHealth > 0)
+        {
+            PlayerHealth--;
+        }
         if(PlayerHealth <= 0)
         {
             Gamemanager.WonBattleFlag = false;

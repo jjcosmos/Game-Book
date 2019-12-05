@@ -42,6 +42,7 @@ public class StoryNode : MonoBehaviour
 
     public void SelectOption(int optionIndex)//1 through 4
     {
+        music.musicPlayer.SelectSound();
         if(!Gamemanager.ReturningFromBattleFlag && TriggerMinigameScene)
         {
             return;
@@ -79,6 +80,7 @@ public class StoryNode : MonoBehaviour
     {
         if (TriggerMinigameScene && !Gamemanager.ReturningFromBattleFlag)
         {
+            music.musicPlayer.FadeOut();
             StartCoroutine(LoadSceneDelay());
             
         }
@@ -192,6 +194,7 @@ public class StoryNode : MonoBehaviour
     public void MoveNext()
     {
         //stuff
+        music.musicPlayer.SelectSound();
         if (DialogueIndex + 1 >= Dialogue.Count)
         {
             DialogueIndex = 0;
