@@ -1344,7 +1344,7 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[5]
       value: '1) Enter the cavern
 
-        2) Continue further up the mountain.'
+        2) (not implemented) Continue further up the mountain.'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -2688,8 +2688,8 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[6]
       value: '1) Approach the creature cautiously.
 
-        2) Stand still and not move a muscle in the hopes of being ignored by the
-        creature.'
+        2) (not implemented) Stand still and not move a muscle in the hopes of being
+        ignored by the creature.'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -8204,7 +8204,9 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[4]
-      value: 1) Enter the opening.
+      value: '1) Enter the opening.
+
+        [End of alpha content]'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -9412,7 +9414,7 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[6]
       value: '1) Go deeper into the cave.
 
-        2) Leave and continue on your path up the mountain.'
+        2) (not implemented) Leave and continue on your path up the mountain.'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -13956,7 +13958,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[0]
-      value: You turn away from the angry god and leave the ravine behind, walking
+      value: You turn away from the angry figure and leave the ravine behind, walking
         away as the insults he hurls at your back sound farther and farther away.
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
@@ -14045,7 +14047,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_FontSize
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -14105,17 +14107,17 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.r
-      value: 0.745283
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.g
-      value: 0.14413491
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.b
-      value: 0.22228624
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
