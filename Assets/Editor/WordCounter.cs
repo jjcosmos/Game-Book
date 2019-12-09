@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
+using System.IO;
 
 public class WordCounter : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class WordCounter : MonoBehaviour
     [MenuItem("MyTools/WordCount!")]
     static void CountWords()
     {
+        string docPath = "Assets/Resources/Transcript.txt";
+        StreamWriter writer = new StreamWriter(docPath, true);
         List<StoryNode> nodes = GameObject.FindObjectsOfType<StoryNode>().ToList<StoryNode>();
         foreach (var item in nodes)
         {
@@ -21,11 +24,13 @@ public class WordCounter : MonoBehaviour
                 {
                     Debug.Log(item.name, item);
                 }
-                Story = Story + "\n" + line;
+                writer.WriteLine(line);
+                //Story = Story + "\n" + line;
             }
 
             
         }
+        writer.Close();
         EditorGUIUtility.systemCopyBuffer = Story;
     }
 }
