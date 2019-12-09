@@ -25,6 +25,7 @@ public class RGameManager : MonoBehaviour
     public static int PlayerHealth;
 
     public int MaxPlayerHealth;
+    public bool startHurt;
 
     private TextMeshProUGUI PlayerHealthUI;
     private TextMeshProUGUI BossHealthUI;
@@ -53,7 +54,12 @@ public class RGameManager : MonoBehaviour
 
         BossHealthUI = GameObject.Find("BossHealth").GetComponent<TextMeshProUGUI>();
         PlayerHealthUI = GameObject.Find("PlayerHealth").GetComponent<TextMeshProUGUI>();
-        PlayerHealth = MaxPlayerHealth;
+        if (startHurt)
+        {
+            PlayerHealth = MaxPlayerHealth - 10;
+        }
+        else { PlayerHealth = MaxPlayerHealth; }
+        
         currentBossHealth = MaxBossHealth;
         currentMultiplier = 1;
 

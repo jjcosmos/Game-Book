@@ -44,7 +44,10 @@ public class music : MonoBehaviour
 
     public void SelectSound()
     {
-        musicAudioSource.PlayOneShot(clickClip, .3f);
+        if (!Gamemanager.ReturningFromBattleFlag)
+        {
+            musicAudioSource.PlayOneShot(clickClip, .3f);
+        }
     }
 
     // Update is called once per frame

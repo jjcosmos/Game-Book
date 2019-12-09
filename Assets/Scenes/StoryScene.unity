@@ -410,6 +410,102 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 53804255}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &59680734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You died
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 363.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &59680735 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 59680734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &87564266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -430,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[0]
-      value: BATTLE
+      value: You attack!
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -703,7 +799,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -1000,6 +1096,180 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 134036826}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &138344068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: With the dead behind you, you tread onwards towards the peak which is
+        now within a mere grasp.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: You look towards the sun and gauge that it will begin to set in no more
+        than an hour.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: The intense light of midday has been by now replaced with the warmer
+        caressing orange of the late afternoon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: After approximately ten minutes pass, you round the last stretch of the
+        path leading up to the peak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: Upon reaching the top, you take in the surreal scene.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: Before you lies the once fearsome god Zao Gongen with his dual pronged
+        vajra still clasped in his right hand.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: ' puddle of gold-hued blood lies underneath the god''s unmoving body,
+        contrasting with his skin - a bluish black of midnight.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: Your eyes are drawn to the source of the blood - a large gash in the
+        god's leg, still holding the tip of a giant arrow, seemingly larger than your
+        body.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: Though you know it not to be the case, the god almost appears dead from
+        the wound, and you can see no indication of life.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: Aside from you and the wounded god, there seems to be no other living
+        soul, only the gentle breeze.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: You are not sure what you were expecting, but something about this whole
+        situation seems off and you are filled with a feeling of foreboding.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[11]
+      value: '1) Approach the wounded god and attempt to revive it with the waters.
+
+        2) Draw your axe and stand your ground.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 2106557403}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 1569395556}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 344.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &138344069 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 138344068}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &166769783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1398,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[0]
-      value: '[Fight]'
+      value: You attack!
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -1188,7 +1458,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -1207,6 +1477,153 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!1001 &199022286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You get down on your belly and squeeze through the opening, wiggling
+        your way through the narrow space.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: You have to reluctantly leave your torch and weapon behind in order to
+        fit through and can see nothing but darkness.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: You are forced to feel your way forward through the cold, wet rock.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: The sounds of running water get closer as you move through the tunnel.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: After a drawn out matter of minutes pass, you finally wiggle your way
+        free into a more open space.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: You notice a very soft glow illuminating much of the area around you
+        and follow the light to its source, a large pool of water with streams both
+        entering from and exiting into openings that could lead anywhere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: The hue of the water and its glow resembles that of the water in your
+        dream when the Buddha had appeared before you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: There is no doubt that these are the fabled waters of immortality.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: 1) Fill one of your empty canteens with the water and leave the cave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 2096392458}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.358692
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 327.8413
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268274
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238798
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &199022287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 199022286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &204569270 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
@@ -1344,7 +1761,7 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[5]
       value: '1) Enter the cavern
 
-        2) (not implemented) Continue further up the mountain.'
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -1360,7 +1777,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Option2
       value: 
-      objectReference: {fileID: 1719369410}
+      objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1399,7 +1816,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -1732,7 +2149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &408753576
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -1805,23 +2222,80 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.size
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_FontSize
-      value: 30
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[0]
-      value: DEADEND
+      value: You cease all movement and hold your breathe, hoping the creature doesn't
+        see you as a threat.
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Its eyes fix on you and it blinks.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: You feel the ground rumble as the creature stands up and takes a few
+        steps into your area of vision.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: Immediately, you take notice of the straight pointing horns adorning
+        its enormous ugly head.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: Rows of pointed, blood-stained teeth shine in the torchlight, with two
+        exceptionally sharp canines potruding from the top of its mouth.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: A large mane of jet black hair covers its neck to the top of its head.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: Its bare chest is red like the Tengu but unlike the Tengu, what you recognize
+        as an Oni stands more than two times your height with hands the size of your
+        head that end in sharp blood crusted nails.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: To add to the fearsome sight, the Oni grasps a large iron war club in
+        its right hand the size of your body.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: It doesn't look as if it will let you leave.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: 1) Prepare to fight with your axe drawn in your right hand.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 175459911}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1860,7 +2334,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -2629,7 +3103,7 @@ Transform:
   - {fileID: 1940738519}
   - {fileID: 408753578}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &524294851
 PrefabInstance:
@@ -2744,7 +3218,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -2763,6 +3237,171 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!1001 &529751537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You continue following the path winding up the mountain and notice a
+        wretched smell of death.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: It assaults your nostrils, but you push onwards until you turn a corner
+        and see the source of the smell.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: Before you is a gruesome sight.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: A creature feasts on the corpse of what appears to be a monk, who's unfortunate
+        pilgrimage had been cut short.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: You glare at the creature and notice its brownish-red skin, flared ears,
+        and jagged teeth, as it tears into the rotten flesh of the dead monk.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: ' It is a man-eating demon, known as a Rakshasa.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: You had heard stories and warnings of them, but never had the misfortune
+        of seeing one yourself.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: Seeing the dead monk has made an uncontrollable anger rise up within
+        you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: You draw your vajra weapon with vengeance clear in your eyes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: The Rakhasa doesn't notice you,  and continues to feed contentedly on
+        the monk.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: '1) Lunge at the Rakshasa while he is unaware.
+
+        2) Get the Rakshasa''s attention as you prepare to hack him to pieces.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1071547018}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 1763865473}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.4022245
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 312.32355
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7933523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.60876286
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -105.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &529751538 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 529751537}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &536286856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,20 +3429,17 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 744888725}
   - {fileID: 1291970241}
   - {fileID: 2080794881}
   - {fileID: 1750387473}
   - {fileID: 35374776}
   - {fileID: 175459914}
   - {fileID: 123176304}
-  - {fileID: 2047907334}
-  - {fileID: 1719369411}
   - {fileID: 2047502148}
   - {fileID: 955954486}
   - {fileID: 781191385}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &624626811
 PrefabInstance:
@@ -3218,7 +3854,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_FontSize
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -3278,17 +3914,17 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.r
-      value: 0.745283
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.g
-      value: 0.14413491
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.b
-      value: 0.22228624
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -3315,6 +3951,11 @@ PrefabInstance:
       propertyPath: style.m_Normal.m_TextColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 438171030}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3448,332 +4089,13 @@ Transform:
   - {fileID: 2077636710}
   - {fileID: 844011851}
   - {fileID: 1488432709}
-  - {fileID: 687193746}
   - {fileID: 1078589144}
   - {fileID: 87564267}
   - {fileID: 1664975581}
   - {fileID: 1909499054}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &687193745
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 651070240}
-    m_Modifications:
-    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_Name
-      value: Node1:1:A:1:1 (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[0]
-      value: You stop and watch the Tengu as he approaches you with his hand still
-        resting on the hilt of his sword.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[1]
-      value: 'He speaks to you in a deep, but reserved voice:'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: TriggerMinigameScene
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: SceneToLoad
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[3]
-      value: 1) [Fight]
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[4]
-      value: 'Your eyes next move to his hands, taking notice of the fingers ending
-        in claw-like nails.  '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[5]
-      value: '1) Stop and wait for the Tengu to approach.
-
-        2) Continue walking towards the Tengu in a cautious fighting stance.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[2]
-      value: '"Leave at once.  You are not welcome here."'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[6]
-      value: A shiver goes down your spine.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[7]
-      value: Suddenly, you no longer feel alone.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[8]
-      value: You look around at the wasteland surrounding you, but only hear the howling
-        of the wind.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[9]
-      value: As you turn back to face the Peak, you nearly jump when you see a strange
-        looking figure perched on a large tree stump between you and the base of the
-        mountain.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[10]
-      value: You do not move and your eyes are fixed on the figure, not able to help
-        but notice his unusual features.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: UseSmallFont
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e,
-        type: 3}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_FontSize
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_FontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Alignment
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_WordWrap
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_FixedWidth
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnHover.m_Background
-      value: 
-      objectReference: {fileID: 2800000, guid: f88677df267a41d6be1e7a6133e7d227, type: 3}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnHover.m_TextColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnHover.m_TextColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnHover.m_TextColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnNormal.m_TextColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnNormal.m_TextColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_OnNormal.m_TextColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_TextColor.r
-      value: 0.745283
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_TextColor.g
-      value: 0.14413491
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_TextColor.b
-      value: 0.22228624
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Margin.m_Right
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_TextClipping
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_StretchWidth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_Background
-      value: 
-      objectReference: {fileID: 2800000, guid: ed5290d8df18488780e2996b9b882f01, type: 3}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_TextColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[11]
-      value: The figure has a tall and slender clearly male humanoid body, but the
-        face is where the human likeness is lost.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[12]
-      value: 'The man''s face is fiery red in complexion and sports an abnormally
-        long nose. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[13]
-      value: His hair is white and worn long down to his shoulders.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[14]
-      value: Behind his shoulders you can see what appear to be wings covered in black
-        feathers.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[15]
-      value: 'You recognize the unusual features to be that of a Tengu, a race of
-        powerful tricksters who have often been enemies of the Buddha. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Option4
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Option3
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[16]
-      value: 1) Approach the Tengu blocking your path
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Option1
-      value: 
-      objectReference: {fileID: 17367546}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 24.700012
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 61.646942
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 233.10052
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 31
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437391, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
---- !u!4 &687193746 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-    type: 3}
-  m_PrefabInstance: {fileID: 687193745}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &697864956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4173,7 +4495,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 23.646002, y: -46.251003, z: 0.532}
 --- !u!1001 &707377498
 PrefabInstance:
@@ -4771,52 +5093,173 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 737502121}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &744888723
+--- !u!1001 &759889829
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 536286857}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_Name
-      value: Node1
+      value: Node
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_FontSize
-      value: 30
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[0]
-      value: DEADEND
+      value: Zao Gongen nods and lowers his weapon.
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
-      propertyPath: style.m_Normal.m_TextColor.r
-      value: 1
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Though still in his wrathful form, he now appears of a more congenial
+        nature.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: He thanks you and folds his hands in respect to you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: You fold your hands in return and bow to the god.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: The god disappears from your sight and you start to see life returning
+        to the mountain.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: The dead and withered trees are replaced with vivid greenery and the
+        chirping of birds can once again be heard.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: You feel a hand on your shoulder and start suddenly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: Turning around with your hand resting on your axe handle, you looking
+        into the face of an aged man with long white hair.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: You recognize his stern eyes as the man who appeared in your dreams.  He
+        speaks in the same voice, only softer this time.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: '"You have come far Kenzou.  The Buddha smiles upon you and the gods
+        are thankful."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: '"There are many questions you have I am sure.  I should introduce myself
+        foremost."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[11]
+      value: '"I am En no Gyoja, the great mystic who once held dominion over this
+        great mountain."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[12]
+      value: '"I did not tell you all I knew when I appeared in your dream, because
+        this is a task you were meant to complete on your own."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[13]
+      value: '"Kenzou, I am growing old and soon to leave this world."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[14]
+      value: '"I will need someone to succeed me as the guardian sage of these mountains,
+        and you have proven more than worthy."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[15]
+      value: '"The god, Zao Gongen, whom I summoned to guard this mountain is powerful,
+        but is not enough to keep this peak from evil."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[16]
+      value: '"Take my bell and vajra.  Become the next wizard of the mountains."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[17]
+      value: 'He offers his bell and vajra to you and offers to initiate you into
+        the esoteric peacock mantra. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[18]
+      value: '1) Become the next wizard of the mountains.
+
+        2) Refuse politely.
+
+        3) Take the bell and vajra, then slay the wizard.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1106848887}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 1716044266}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option3
+      value: 
+      objectReference: {fileID: 1537006201}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option4
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.850159
+      value: -18.75
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 62.808746
+      value: 61.482605
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 316.91068
+      value: 375.99
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -4826,7 +5269,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.48922527
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -4836,12 +5279,12 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8721575
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -4851,7 +5294,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -58.579002
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -4860,11 +5303,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
---- !u!114 &744888724 stripped
+--- !u!114 &759889830 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
     type: 3}
-  m_PrefabInstance: {fileID: 744888723}
+  m_PrefabInstance: {fileID: 759889829}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -4872,12 +5315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &744888725 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-    type: 3}
-  m_PrefabInstance: {fileID: 744888723}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &781191385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
@@ -6289,7 +6726,7 @@ RectTransform:
   - {fileID: 1075554925}
   - {fileID: 456451929}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6325,7 +6762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e209755691085741ba10e23a7ee44bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visStory: 
 --- !u!4 &966665737
 Transform:
   m_ObjectHideFlags: 0
@@ -6338,7 +6774,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1013558472
 PrefabInstance:
@@ -6668,6 +7104,386 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1013558472}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1018901850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: TriggerMinigameScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You attack!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1324543417}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 1571476451}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 315.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1018901851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1018901850}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1046435654
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: Against all seemingly possible odds, you manage to avoid the abundance
+        of arrows and fire thrown your way.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Failing to kill you from a distance, the Asura approaches with a flurry
+        of swords, but you parry and avoid each attack perfectly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: You bring your axe down on his left sword-arm and sever it clean from
+        his torso.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: He roars in rage and with bloodlust in his eyes, doubling up on his strikes
+        in an attempt to force you backwards.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: However, you see an opening as he raises his sword for another strike,
+        and swing your axe into his remaining sword arm, sending his hand into the
+        air, still grasping the sword.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: Growing desperate, he tries to cast a powerful spell and large balls
+        of flame appear in his top two hands.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: However, before he can finish, you swing your axe with all the force
+        you can muster and sever his multi-faced head clean from his shoulders.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: Thick blood spurts from his neck and the body still stands, twitching
+        and continuing to move slightly, his hands reaching out to your face before
+        collapsing and going still.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: You look back towards the wounded god and he remains there unmoving as
+        he was when you first arrived.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: 1) Revive the wounded god.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1547441972}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 371.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1046435655 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1046435654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1071547017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: 'You lunge at the Rakshasa and he turns towards you with teeth bared
+        and yellow eyes boring into you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: 1 [Fight]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1018901851}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 307.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268274
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238798
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1071547018 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1071547017}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1074792345 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
@@ -7125,7 +7941,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -7230,6 +8046,167 @@ Transform:
   m_Father: {fileID: 512304186}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1106848886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You take the bell and vajra from En no Gyoja, and he teaches you the
+        peacock mantra.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: With these boons, you are granted the mystic powers of the wizard, along
+        with the duty to the Golden Peak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: His weathered and hard face cracks into a grateful smile.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: You ask him what he will do now that you have taken up his role.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: '"My time here is done.  I shall retreat inwards until I leave this realm."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: 'He sits down in lotus position and closes his eyes in absolute stillness. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: His face seems at peace, as if a huge burden had been lifted from his
+        chest.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: With the vajra and bell in hand, you look outwards to the setting sun.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: You are filled with an inner peace and resolve at the accomplishment
+        of your task.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: 'You reflect on the changes you have undergone as a person  and look
+        expectantly towards the future as a protector of all living beings... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: 1) Take a deep breath of the mountain air
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: TriggerMinigameScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 388.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1106848887 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1106848886}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1125872993 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
@@ -7283,7 +8260,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206252900
 GameObject:
@@ -7360,6 +8337,122 @@ Transform:
   m_Father: {fileID: 512304186}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1210403594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You attack!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: TriggerMinigameScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1046435655}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 59680735}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 363.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1210403595 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1210403594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1244733498
 GameObject:
   m_ObjectHideFlags: 0
@@ -7433,7 +8526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1262480504
 PrefabInstance:
@@ -8057,105 +9150,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1276207220}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1278026647
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 536286857}
-    m_Modifications:
-    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_Name
-      value: Node11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[0]
-      value: DEADEND
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[1]
-      value: .
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[2]
-      value: .
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_TextColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_FontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.650604
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 66.375336
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 290.29047
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
 --- !u!1001 &1291970239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8206,8 +9200,13 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[4]
       value: '1) Enter the opening.
 
-        [End of alpha content]'
+'
       objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 199022287}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8246,7 +9245,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -8844,105 +9843,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1314359035}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1318396293
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 536286857}
-    m_Modifications:
-    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_Name
-      value: Node13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[2]
-      value: .
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[1]
-      value: .
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: Dialogue.Array.data[0]
-      value: DEADEND
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_Normal.m_TextColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: style.m_FontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.779999
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 65.68594
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 284.75024
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
 --- !u!1 &1319245028
 GameObject:
   m_ObjectHideFlags: 0
@@ -9007,13 +9907,140 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1328243013 stripped
+--- !u!1001 &1324543416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You manage to avoid the quick slashes of the flesh-eater's claws and
+        it makes a fatal overstep.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Upon seeing an opening, you bring your axe down on the center of the
+        Rakshasa's head, splitting its skull into two.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: Dark red blood gushes out of the beast's head and it falls dead without
+        a sound.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: Dark red blood gushes out of the beast's head and it falls dead without
+        a sound.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: You think of the shame of not being given the proper cremation and funeral
+        rites.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: '1) Conduct a short rite of departure for the monk.
+
+        2) With no time to waste, continue up to the mountain.  At least the monk
+        had died on the auspicious Golden Peak of all places.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1647790178}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 138344069}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 327.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1324543417 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
     type: 3}
-  m_PrefabInstance: {fileID: 687193745}
+  m_PrefabInstance: {fileID: 1324543416}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -9074,9 +10101,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Dialogue.Array.data[5]
-      value: '1) Stop and wait for the Tengu to approach.
-
-        2) Continue walking towards the Tengu in a cautious fighting stance.'
+      value: 1) Continue walking towards the Tengu with axe drawn
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -9127,7 +10152,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_FontSize
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -9187,17 +10212,17 @@ PrefabInstance:
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.r
-      value: 0.745283
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.g
-      value: 0.14413491
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: style.m_Normal.m_TextColor.b
-      value: 0.22228624
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -9272,12 +10297,12 @@ PrefabInstance:
         type: 3}
       propertyPath: Option1
       value: 
-      objectReference: {fileID: 1328243013}
+      objectReference: {fileID: 828087579}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: Option2
       value: 
-      objectReference: {fileID: 828087579}
+      objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9414,7 +10439,7 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[6]
       value: '1) Go deeper into the cave.
 
-        2) (not implemented) Leave and continue on your path up the mountain.'
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -9430,7 +10455,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Option2
       value: 
-      objectReference: {fileID: 2047907331}
+      objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9469,7 +10494,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -10101,6 +11126,580 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1504019014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1537006200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: TriggerMinigameScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You take the bell and vajra from En no Gyoja and he teaches you the peacock
+        mantra.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: With these boons, you are granted the mystic powers of the wizard and
+        also the duty to the Golden Peak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: 'His weathered and hard face cracks into a grateful smile. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: Before the wizard can register what is about to happen, you raise your
+        vajra and launch a powerful lightning bolt at the sage, burning him to death
+        in an instant and stopping his heart.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: His charred body collapses, his eyes open, and face stuck in a look of
+        surprise.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: You look out towards the setting sun and hear a cackling voice of laughing
+        in the distance...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: 1) ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 386.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1537006201 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1537006200}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1547441971
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: 'You approach the god and kneel down, bringing your canteen to his lips. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Nothing happens.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: Moments pass, and you wonder whether you were too late.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: Remembering that the arrow is still in the wound, you pull the arrow
+        out from the god, using what strength you have left.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: Then, the body of the god starts to twitch, and the wound begins to mend
+        itself.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: Color returns to the dead skin and the god's eyes open.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: The fearsome god, Zao Gongen, jumps up and with fire in his eyes, raising
+        its vajra weapon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: Lightning cackles around the weapon and he glares at you accusingly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: His gaze softens when he sees your monk robes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: 'He speaks in a deep powerful voice.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: '"Who are you?  What has happened?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[11]
+      value: 1) Introduce yourself and summarize the past events, and explain that
+        you revived him with the waters of immortality.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 759889830}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 376.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.46593055
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8848213
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -55.541004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1547441972 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1547441971}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1569395555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: 'You draw you axe and wait in expectance.  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: You hope you are not foolish for doing so, but your instincts have not
+        failed you in the past.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: As if answering your call, you hear the sound of a drawstring and look
+        up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: An arrow launches directly at you, but you manage to sidestep in time,
+        avoiding it entirely.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: You look up and see the source of the arrow descend.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: Before you is another demon, larger than all the others, and bright red
+        in skin color.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: Six arms extend from its muscular torso.  One holds a bow and another
+        draws an arrow.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: In two of its hands it grasps curved steel swords, and in the last two
+        hands, it wields a deadly flame.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: On its head are not one, but three hideous faces that glare at you, while
+        its jagged teeth curve into a cruel smile.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: You recognize that this demon is not like the others, but an intelligent
+        and extremely powerful being; no different than a god in ability.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: 'He is what the monks call an Asura, one who is distinguished from the
+        gods by his opposition to Dharma. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[11]
+      value: He licks his front two canines, following a natural curve upwards into
+        a perpetual insideous grin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[12]
+      value: He laughs at you mockingly and draws his bow to fire.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1210403595}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[13]
+      value: 1) Draw your axe and prepare to fight the Asura.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 352.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1569395556 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1569395555}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1571476450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: '[You Died]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 326.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1571476451 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1571476450}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1613530577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10676,6 +12275,239 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1635708317}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1637967726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: wounded, you attack!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: TriggerMinigameScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1046435655}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option2
+      value: 
+      objectReference: {fileID: 59680735}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 362.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1637967727 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1637967726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1647790177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You approach the gruesome remains of the monk and recite a series of
+        mantras and prayers before setting fire to the corpse.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Dark smoke rises into the sky, seemingly reaching towards the sun.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: The smell of burning flesh now fills your nostrils, but you bear it stoically.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: 1) Leave and continue up the mountain.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 138344069}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 337.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1647790178 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1647790177}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1664975579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10964,7 +12796,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -11526,7 +13358,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1708053557
 MonoBehaviour:
@@ -11553,11 +13385,140 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1719369410 stripped
+--- !u!1001 &1716044265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You refuse the bell and vajra, telling the wizard that you are not yet
+        ready to take up such a responsibility.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Though looking a bit disappointed, he nods in understanding and then
+        bows in farewell.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: You look outwards towards the setting sun.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: You are filled with an inner peace and resolve at the accomplishment
+        of your task.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: You wonder at how different things will be when you return to the monastery
+        and how different of a person you will seem...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: You wonder at how different things will be when you return to the monastery
+        and how different of a person you will seem...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: 1) Take a deep breath of the mountain air
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: TriggerMinigameScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 388.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1716044266 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
     type: 3}
-  m_PrefabInstance: {fileID: 1318396293}
+  m_PrefabInstance: {fileID: 1716044265}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11565,12 +13526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1719369411 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-    type: 3}
-  m_PrefabInstance: {fileID: 1318396293}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1720789551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11955,7 +13910,7 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[6]
       value: '1) Go towards the sound.
 
-        2) Leave the cave.'
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -11966,7 +13921,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Option2
       value: 
-      objectReference: {fileID: 744888724}
+      objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12005,7 +13960,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -12042,6 +13997,113 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1750387471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1763865472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: 'You shout in rage at the Rakshasa as you wave your axe in the air. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: 'It turns towards you, baring its teeth, and boring its yellow eyes into
+        you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: 1) [Fight]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1018901851}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 315.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.72706866
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6865648
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -93.282005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &1763865473 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 1763865472}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1801417189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13072,7 +15134,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -13378,7 +15440,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -13532,7 +15594,7 @@ Transform:
   m_LocalScale: {x: 14, y: 14, z: 14}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940738516
 GameObject:
@@ -13689,24 +15751,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
     type: 3}
   m_PrefabInstance: {fileID: 316432831}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2047907331 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-    type: 3}
-  m_PrefabInstance: {fileID: 1278026647}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &2047907334 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
-    type: 3}
-  m_PrefabInstance: {fileID: 1278026647}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2063366156
 PrefabInstance:
@@ -14077,7 +16121,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2077636708
 PrefabInstance:
@@ -14493,7 +16537,7 @@ PrefabInstance:
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
         type: 3}
@@ -14530,6 +16574,285 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2080794879}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2096392457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: "You fill your canteen with the water and then leave the cave the way
+        you came, grabbing your weapon on the way.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: 1) Continue on the winding path up the mountain.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 529751538}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.79221
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 325.05353
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7933523
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.60876286
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -105.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &2096392458 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 2096392457}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2106557402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8793480956566437389, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[0]
+      value: You rush to the wounded god and pull out your canteen, but before you
+        can feed the waters to Zao Gongen, you hear the sound of a drawstring.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: style.m_FontSize
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1]
+      value: Thankfully, your reflexes allow you to dodge the full impact, but another
+        arrow (identical to the one that pierced the god) flies past and grazes your
+        left arm.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[2]
+      value: You clasp your wound with your right hand and feel the hot red blood
+        as it drips through your fingers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[3]
+      value: You look up and see the source of the arrow descend.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4]
+      value: Before you is another demon, larger than all the others, and bright red
+        in skin color.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[5]
+      value: Six arms extend from its muscular torso.  One holds a bow and another
+        draws an arrow.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[6]
+      value: In two of its hands it grasps curved steel swords, and in the last two
+        hands, it wields a deadly flame.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[7]
+      value: On its head are not one, but three hideous faces that glare at you, while
+        its jagged teeth curve into a cruel smile.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[8]
+      value: You recognize that this demon is not like the others, but an intelligent
+        and extremely powerful being; no different than a god in ability.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[9]
+      value: 'He is what the monks call an Asura, one who is distinguished from the
+        gods by his opposition to Dharma. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[10]
+      value: He licks his front two canines, following a natural curve upwards into
+        a perpetual insideous grin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[11]
+      value: He laughs at you mockingly and draws his bow to fire.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Dialogue.Array.data[12]
+      value: 1) Draw your axe and prepare to fight the Asura.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: Option1
+      value: 
+      objectReference: {fileID: 1637967727}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.482605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 352.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793480956566437384, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 140a43cb01f0e6f42b91c9980bdb9153, type: 3}
+--- !u!114 &2106557403 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8793480956566437388, guid: 140a43cb01f0e6f42b91c9980bdb9153,
+    type: 3}
+  m_PrefabInstance: {fileID: 2106557402}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b221861b2a60a4d80d5ef111f8f4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8793480957641226645
 PrefabInstance:
   m_ObjectHideFlags: 0
