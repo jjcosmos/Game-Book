@@ -117,7 +117,7 @@ public class RGameManager : MonoBehaviour
         }
         Gamemanager.ReturningFromBattleFlag = true;
         Debug.Log("WINNNNN");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         
         
     }
